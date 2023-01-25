@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(21, 64, 129, 0.781);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px 50px 50px;
+    width: 40%;
+    height: 75vh;
+    box-shadow: 5px 5px 5px  rgb(13, 32, 97);
+    display: flex;
+}
+
+form {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.title {
+    color: rgb(11, 3, 88);
+    text-align: center;
+    padding: 1.3rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60%;
+}
+
+
+.input-box select{
+    font-weight: 400 bold;
+    border-radius: 10px 10px 10px 10px;
+    width: 240%;
+    height: 5vh;
+}
+
+.input-box label{
+   font-weight: 600;
+}
+
+.input-box input {
+    font-weight: 500;
+    padding: 0.42rem;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 0px 0px 1px #6e6e6ed3;
+    width: 130%;
+}
+
+.input-box input:focus {
+    outline: white;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee41;
+
+}
+
+.cadastrar-button button {
+    border: none;
+    background-color: rgb(1, 28, 78);
+    color: white;
+    padding: 0.62rem;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 80%;
+    margin-right: 90%;
+    margin-top: 30%;
+    padding: 15%;
+    width: 200%;
+}
+
+.cadastrar-button button:hover {
+    background-color: rgba(0, 52, 100, 0.801);
+}
+
+.container2 {
+    background-color: rgb(0, 30, 85);
+    border-radius: 50px 50px 50px;
+    width: 40%;
+    height: 70vh;
+    box-shadow: 5px 5px 5px #f7f7f7;
+    display: flex;
+}
+
+.usuario {
+    visibility: hidden;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+
+}
+
+.title2{
+    color: rgb(247, 247, 247);
+    width: 90%;
+    height: 10vh;
+    text-align: center;
+}
+
+
+.input-group2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    margin-left: 1rem;
+    justify-content: center;
+
+}
+
+.input-box2 {
+    padding: 0.2rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.input-box2 label{
+    color: white;
+}
